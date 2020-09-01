@@ -1,4 +1,6 @@
 def reverse_each_word(phrase)
   words = phrase.split
-  words.reverse
+  words each do |word|
+    word.reverse
+  end
 end
