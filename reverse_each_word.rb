@@ -1,4 +1,4 @@
 def reverse_each_word(phrase)
   words = []
-  phrase.match(/\w/)
+  phrase.match(/\w+\S/)
 end
