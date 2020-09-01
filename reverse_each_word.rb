@@ -1,4 +1,4 @@
 def reverse_each_word(phrase)
   words = []
-  phrase.each {|word| words << word}
+  phrase.reverse{|word| words << word}
 end
