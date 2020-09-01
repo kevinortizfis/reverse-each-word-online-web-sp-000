@@ -1,5 +1,5 @@
 def reverse_each_word(phrase)
   words = %w()
-  words.each |word|
+  words.each do |word|
   words << phrase.match(/\w+\S/)
 end
